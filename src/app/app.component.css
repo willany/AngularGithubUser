@@ -1,0 +1,13 @@
+.panel-default{
+  margin-top: 40px;
+}
+
+.panel-heading {
+  background-color: #5CB85C;
+  color: white;
+}
+
+.container{
+  margin-top: -23px;
+  background-color: darkgray;
+}

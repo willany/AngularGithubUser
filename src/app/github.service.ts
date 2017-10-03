@@ -6,11 +6,10 @@ import 'rxjs/add/operator/map';
 export class GithubService {
   private username = 'mensonones';
 
-  constructor(private _http: Http) {}
+  constructor(private http: Http) {}
 
   getUser() {
-    return this._http.get('https://api.github.com/users/' + this.username)
+    return this.http.get('https://api.github.com/users/' + this.username)
       .map(res => res.json());
   }
-
 }

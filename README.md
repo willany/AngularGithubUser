@@ -18,9 +18,18 @@ cd AngularGithubUser
 
 ### Instalar os pacotes do npm
 
-Instalar os pacotes do npm descritos no arquivo `package.json` e verfiricar se o projeto está rodando:
+Instalar os pacotes do npm descritos no arquivo `package.json`:
 
 ```shell
 npm install
+```
+
+### Subir o servidor e acessar a aplicação
+
+Basta rodar o seguinte comando:
+
+```shell
 npm ng serve --open
 ```
+
+Uma janela do seu navegador abrirá automaticamente.

@@ -1,12 +1,26 @@
-# AngularGithubUser
-Consumindo dados de usuário pela API do Github com Angular (Angular 2).
+# Angular Github User
 
-1 - Faça o download do projeto
+Este projeto tem como objetivo principal consumir a API do Github com Angular 2 e exibir informações dos usuários.
 
-2 - Acesse a pasta do projeto pelo terminal/prompt 
+### Não tem o AngularCLI instalado?
 
-3 - execute o comando: npm install
+Acesse o site e siga o passo a passo:
+    [AngularCLI](https://cli.angular.io/)
 
-4 - após executar o comando acima, execute o comando: ng serve --open
+## Vamos começar
 
-Obs: é preciso ter o angular cli instalado
+### Clonar o repositório
+
+```shell
+git clone https://github.com/mensonones/AngularGithubUser.git
+cd AngularGithubUser
+```
+
+### Instalar os pacotes do npm
+
+Instalar os pacotes do npm descritos no arquivo `package.json` e verfiricar se o projeto está rodando:
+
+```shell
+npm install
+npm ng serve --open
+```
